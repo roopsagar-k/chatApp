@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  @apply bg-gradient-to-b from-[#32b9b7] via-blue-500 to-indigo-500;
+}
+
+.input {
+  @apply w-full mt-4;
+}
+
+.formInput {
+  @apply px-4 py-1 bg-slate-100;
+}
+
+.gradient2 {
+  @apply bg-gradient-to-r from-[#32b9b7] via-blue-500 to-indigo-500;
+}
+
+.primary {
+  @apply bg-gradient-to-r text-white from-[#32b9b7] via-blue-500 to-indigo-500 mt-4 py-2 w-full rounded;
+}
+
+.progress-bar {
+  animation: anim 4s linear forwards;
+}
+
+@keyframes anim {
+  100% {
+    width: 0;
+  }
+}
+
+html {
+  overflow: hidden;
+}
